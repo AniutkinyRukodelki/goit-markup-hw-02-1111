@@ -10,6 +10,7 @@
     --background-color: #E5E5E5;
     --background-color-dark: #2F303A;
     --background-color-light: #F5F4FA;
+    --contact-list-link-color: rgba(255, 255, 255, 0.6);
 }
 
 .link {
@@ -38,7 +39,7 @@ body {font-family: var(--main-font);
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--primary-text-color);
+    color: var(--text-color-theme-dark);
     background-color: var(--secondary-button-color);
 }
 .modal-btn:hover,
@@ -145,6 +146,7 @@ color: var(--accent-color);
 background: var(--background-color-light);
 }
 .employees-name {
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -176,7 +178,7 @@ background: var(--background-color-dark);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: var(--contact-list-link-color);
 }
 
 .contact-adress-list-link {
