@@ -198,18 +198,34 @@ background: var(--background-color-dark);
 /* ============= /FOOTER ============= */
 /* ============= PORTFOLIO COMPONENTS ============= */
 .modal-all-btn {
-        font-family: var(--main-font);
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        cursor: pointer;
-        color: var(--text-color-theme-dark);
-        background-color: var(--accent-color);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--text-color-theme-dark);
+    background-color: var(--accent-color);
+    border: none;
 }
+.modal-btn-portfolio {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--primary-text-color);
+    background-color: var(--background-color-light);
+    border: none
+}
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+    background-color: var(--accent-color);
+    color: var(--text-color-theme-dark);
+        }
 .name-project {
     font-weight: 700;
     font-size: 18px;
